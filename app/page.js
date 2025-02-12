@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div>Harsh maniar</div>;
+  return (
+    <div className="mt-40">
+      <div>Harsh maniar</div>
+    </div>
+  );
 }
