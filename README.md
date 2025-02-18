@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Finance Platform
 
-## Getting Started
+An AI-driven finance management platform built with Next.js, Tailwind CSS, and ShadCN UI, providing users with an intuitive dashboard to track income, expenses, and budgets.
 
-First, run the development server:
+## Features
+- **AI-Powered Receipt Scanning**: Integrated with the Gemini AI API to automate receipt processing, reducing manual effort by 80%.
+- **Secure Authentication**: Implemented using Clerk for seamless user authentication.
+- **Intuitive Dashboard**: User-friendly interface to monitor financial data efficiently.
+- **Robust Database Management**: Built with Prisma and PostgreSQL for optimized performance and scalability.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend**: Next.js, Tailwind CSS, ShadCN UI
+- **Authentication**: Clerk
+- **AI Integration**: Gemini AI API
+- **Database**: Prisma, PostgreSQL
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HarshManiar1804/money_map
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd money_map
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables in a `.env` file:
+   ```plaintext
+   DATABASE_URL=your_database_url
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+   CLERK_SECRET_KEY=your_clerk_secret
+   GEMINI_API_KEY=your_gemini_api_key
+   ```
+5. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
+- Sign up and log in using Clerk authentication.
+- Upload receipts for AI-powered expense tracking.
+- Monitor income and expenses through the dashboard.
+- Set and manage budgets effectively.
 
-## Learn More
+## Demo Video
+[![Watch the Demo]](https://youtu.be/1Q2LzLikLQ8?si=xSmjcpB2kLevcYP3)
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshot
+<img width="1469" alt="Screenshot 2025-02-18 at 5 59 40 PM" src="https://github.com/user-attachments/assets/6f91d818-b782-428a-9d58-deaa17b8b6ea" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contact
+For any queries, feel free to reach out:
+- **Email**: harshmaniarofficial@gmail.com
+- **GitHub**: [HarshManiar1804](https://github.com/HarshManiar1804)
+- **LinkedIn**: [Harsh Maniar](https://www.linkedin.com/in/harshmaniar210/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
