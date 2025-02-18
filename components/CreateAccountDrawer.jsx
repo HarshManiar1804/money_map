@@ -29,7 +29,7 @@ import { createAccount } from "@/actions/dashboard";
 import { accountSchema } from "@/app/lib/schema";
 import UseFetch from "@/hooks/UseFetch";
 
-export function CreateAccountDrawer({ children }) {
+export default function CreateAccountDrawer({ children }) {
   const [open, setOpen] = useState(false);
   const {
     register,
