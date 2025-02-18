@@ -51,7 +51,7 @@ An AI-driven finance management platform built with Next.js, Tailwind CSS, and S
 - Set and manage budgets effectively.
 
 ## Demo Video
-[![Watch the Demo]](https://youtu.be/1Q2LzLikLQ8?si=xSmjcpB2kLevcYP3)
+[Watch the Demo](https://youtu.be/1Q2LzLikLQ8?si=xSmjcpB2kLevcYP3)
 
 ## Screenshot
 <img width="1469" alt="Screenshot 2025-02-18 at 5 59 40 PM" src="https://github.com/user-attachments/assets/6f91d818-b782-428a-9d58-deaa17b8b6ea" />
