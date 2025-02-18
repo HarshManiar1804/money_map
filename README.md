@@ -31,9 +31,13 @@ An AI-driven finance management platform built with Next.js, Tailwind CSS, and S
 4. Set up environment variables in a `.env` file:
    ```plaintext
    DATABASE_URL=your_database_url
+   DIRECT_URL=your_direct_url
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
    CLERK_SECRET_KEY=your_clerk_secret
    GEMINI_API_KEY=your_gemini_api_key
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL = sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL = sign-up
+
    ```
 5. Run the development server:
    ```bash
